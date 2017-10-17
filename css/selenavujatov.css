@@ -1,0 +1,131 @@
+body {
+	margin: 0px;
+}
+nav {
+    background-color: #fff;
+    overflow: hidden;
+}
+nav a {
+	font-family: "Courier New", Courier, monospace;	
+    float: right;
+    display: inline;
+    color: #747d87;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+} 
+.menu {
+    list-style-type: none;
+    display:inline;
+}
+.cover {
+	width:100%;
+}
+li a:hover { 
+    color: #ef7575;
+    font-weight: bold;
+}
+h1 {
+  font: 200 65px/0.8 'Pacifico', Helvetica, sans-serif;
+  color: #7ee5d9;
+  text-align: center;
+ }
+ h2 {
+ 	font: xx-large/0.4 "Courier New", Courier, monospace;
+ 	color: #7ee5d9;
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+ h3 {
+ 	font: xx-large/0.4 "Courier New", Courier, monospace;
+ 	color: #7ee5d9;
+ 	text-align: center;
+ }
+ p {
+ 	font-family: "Courier New", Courier, monospace;	
+ 	text-align: center;
+ }
+#container {
+    padding:25px;
+    width:1008px;
+    height: 150px;
+    margin: auto;
+}
+.testimonial {
+    width: 200px;
+    float: left;
+    height: 150px;
+    border: 1px solid #7ee5d9;
+    margin: 0px 25px;
+    border-radius: 5%;
+}
+#circle {
+    position: relative;
+    background: #7ee5d9;
+    top: -25px;
+    border: 1px solid #7ee5d9;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+}
+#circle .fa {
+    color: #fff;
+    position: relative;
+}
+#circle .fa-desktop {
+    font-size: 28px;
+    left: 11px;
+    top: 12px;
+}
+#circle .fa-laptop {
+    font-size: 28px;
+    left: 10px;
+    top: 10px;
+}
+#circle .fa-user-circle-o {
+    font-size: 28px;
+    left: 11px;
+    top: 12px;
+}
+#circle .fa-commenting-o {
+    font-size: 28px;
+    left: 11px;
+    top: 12px;
+}
+.testimonial p {
+    font-weight: bold;
+    color: #747d87;
+    position:relative;
+    bottom:30px;
+}
+h4 {
+    font: large/0.4 "Courier New", Courier, monospace;
+    color: #747d87;
+    text-align: center;
+ }
+form{
+ 	text-align: center;
+ 	padding-bottom: 20px;
+ }
+ .input {
+ 	width:20%;
+ 	height: 2em; 
+ 	margin-bottom: 10px;
+ }
+ #message {
+ 	height: 6em;
+ }
+ footer{
+    background-color:#7ee5d9;
+    font-size: 12px;
+    width:100%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.socialnetwork {
+ 	height:30px;
+ 	width:30px;
+ 	padding: 5px;
+}
